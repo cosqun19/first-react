@@ -1,12 +1,20 @@
 
+import Button from "./components/Button";
+import Heading from "./components/Heading";
+
+const divStyles = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: 30
+}
+
+
 function App() {
   return (
-    <div>
-      <h1 style={{
-        
-      }}>salam ay react qa!</h1>
-      <h2>veb12 forover at football!</h2>
-      <p>Veb12:8-8</p>
+    <div style={divStyles}>
+      <Heading />
+      <Button />
     </div>
   );
 }
